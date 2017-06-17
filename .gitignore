@@ -8,3 +8,4 @@
 nbproject
 vendor
 phpunit.xml
+composer.lock

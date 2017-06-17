@@ -26,6 +26,6 @@
     },
     "require": {
         "php": "^5.6 || ^7.0",
-        "zend/zend-mvc-plugin-flashmessenger": "^1.0"
+        "zendframework/zend-mvc-plugin-flashmessenger": "^1.0"
     }
 }
