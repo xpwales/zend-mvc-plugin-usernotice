@@ -1,0 +1,12 @@
+{
+    "name": "xpwales/zend-mvc-plugin-usernotice",
+    "description": "Wrapper for Flash Messenger with added message attributes",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "xpwales",
+        "flashmessenger",
+        "zend",
+        "zf3"
+    ]
+}
