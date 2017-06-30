@@ -105,6 +105,14 @@ class NoticeItem implements \Serializable
 		return $this->title;
 	}
 
+	/**
+	 * @return bool
+	 */
+	public function hasTitle()
+	{
+		return null !== $this->title;
+	}
+
 	//
 	// Messages
 	//
