@@ -14,9 +14,9 @@ class Module
 		return [
 			'controller_plugins' => [
 				'aliases' => [
-					'flashmessenger' => UserNotice::class,
-					'flashMessenger' => UserNotice::class,
-					'FlashMessenger' => UserNotice::class,
+					'usernotice' => UserNotice::class,
+					'userNotice' => UserNotice::class,
+					'UserNotice' => UserNotice::class,
 					'Xpwales\Zend\Mvc\Controller\Plugin\UserNotice' => UserNotice::class,
 				],
 				'factories' => [
