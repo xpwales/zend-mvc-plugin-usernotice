@@ -91,7 +91,7 @@ class NoticeItem implements \Serializable
 	 */
 	public function setTitle($title)
 	{
-		$title       = strtolower($title) ?: null;
+		$title       = (string) $title ?: null;
 		$this->title = $title;
 
 		return $this;
