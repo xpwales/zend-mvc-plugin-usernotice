@@ -26,6 +26,11 @@
     },
     "require": {
         "php": "^5.6 || ^7.0",
-        "zendframework/zend-mvc-plugin-flashmessenger": "^1.0"
+        "zendframework/zend-mvc": "^3.0",
+        "zendframework/zend-session": "^2.6.2",
+        "zendframework/zend-stdlib": "^2.7 || ^3.0"
+    },
+    "conflict": {
+        "zendframework/zend-mvc": "<3.0.0"
     }
 }
